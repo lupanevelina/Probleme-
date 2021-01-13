@@ -6,6 +6,6 @@ if int(a)>int(b):
 if int(a)<int(b):
     x=int(a)   
 if int(a)==int(b):
-    x='Numere  egale' 
+    x=' Numere  egale ' 
 with open('minim.txt','w') as f:
     f.write(str(x))           

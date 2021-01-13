@@ -1,0 +1,36 @@
+#Afişaţi tabla înmulţirii cu numărul n. Exemplu: pentru n=5, se va afişa pe verticală 1x5=5  2x5=10 3x5=15 4x5=20 5x5=25 6x5=30 7x5=35 8x5=40 9x5=45 10x5=50. 
+#Din fi2şierul « numar.txt » se citeşte un număr, în fişierul « inmultire.txt » - se înscrie tabla înmulţirii cu acest număr.
+with open('numar.txt','r') as f:
+    n=f.readline()
+    x1='1'+int(n)+'='+(1*int(n))    
+    x2='2'+int(n)+'='+(2*int(n))    
+    x3='3'+int(n)+'='+(3*int(n))    
+    x4='4'+int(n)+'='+(4*int(n))    
+    x5='5'+int(n)+'='+(5*int(n))    
+    x6='6'+int(n)+'='+(6*int(n))    
+    x7='7'+int(n)+'='+(7*int(n))    
+    x8='8'+int(n)+'='+(8*int(n))    
+    x9='9'+int(n)+'='+(9*int(n))    
+    x10='10'+int(n)+'='+(10*int(n))    
+with open('inmultire.txt') as f:
+    f.write(str(x1))
+    f.write(str('\n')
+    f.write(str(x2))
+    f.write(str('\n')
+    f.write(str(x3))
+    f.write(str('\n')
+    f.write(str(x4))
+    f.write(str('\n')
+    f.write(str(x5))
+    f.write(str('\n')
+    f.write(str(x6))
+    f.write(str('\n')
+    f.write(str(x7))
+    f.write(str('\n')
+    f.write(str(x8))
+    f.write(str('\n')
+    f.write(str(x9))
+    f.write(str('\n')
+    f.write(str(x10))
+
+
